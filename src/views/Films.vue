@@ -1,6 +1,6 @@
 <template>
   <div id="films">
-    <div  v-show="bannerList">
+    <div v-show="bannerList">
       <swiper ref="myswiper">
         <div class="swiper-slide" v-for="data in bannerList" :key="data.bannerId">
           <img :src="data.imgUrl" alt="">

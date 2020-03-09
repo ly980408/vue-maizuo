@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-// import Home from '../views/Home.vue'
+
 import Films from '@/views/Films.vue'
 import NowPlaying from '@/views/Films/NowPlaying.vue'
 import ComingSoon from '@/views/Films/ComingSoon.vue'
@@ -46,10 +46,6 @@ const routes = [
     path: '/detail/:filmId', // 动态路由
     name: 'mydetail',
     component: Detail
-  },
-  {
-    path: '/login',
-    component: () => import('@/views/Login')
   },
   {
     path: '*',
