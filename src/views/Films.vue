@@ -76,7 +76,6 @@ export default {
     text-align: center;
     margin: auto;
     line-height: 20px;
-    margin-bottom: 50px
   }
 .loading{
   width: 100%;
@@ -87,6 +86,5 @@ export default {
   text-align: center;
   margin: auto;
   line-height: 20px;
-  margin-bottom: 50px
 }
 </style>

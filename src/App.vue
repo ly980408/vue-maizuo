@@ -1,7 +1,7 @@
 <template>
   <div>
     <tabbar v-if="isTabbarShow"></tabbar>
-    <section>
+    <section :style="{ paddingBottom: isTabbarShow ? '50px' : null }">
       <router-view></router-view>
     </section>
   </div>

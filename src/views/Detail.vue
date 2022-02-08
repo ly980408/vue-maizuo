@@ -135,6 +135,10 @@ export default {
 .film-detail,.actors-title,.photos-title{
   padding: 15px;
 }
+.swiper-slide img {
+  height: 100px;
+  object-fit: cover;
+}
 .film-detail{
   border-bottom: 10px solid #ededed;
   .detail-header{

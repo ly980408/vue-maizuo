@@ -80,7 +80,7 @@ export default {
     .name{
       color: #191a1b;
       font-size: 15px;
-      max-width: 80%;
+      width: 100%;
       float: left;
       overflow: hidden;
       text-overflow: ellipsis;
@@ -89,7 +89,7 @@ export default {
     .address{
       color: #797d82;
       font-size: 12px;
-      max-width: 80%;
+      width: 100%;
       margin-top: 5px;
       float: left;
       overflow: hidden;
